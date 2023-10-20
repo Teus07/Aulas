@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Modal com JS</title>
+    <link rel="stylesheet" href="modal.css">
+</head>
+<body>
+    
+    <h1>Aperte no botão abaixo para tornar o modal vísivel e invisivel</h1>
+
+    <button id="abrir" class="abrir-modal" onclick="AbrirModal()">Abrir Modal</button>
+
+    <div class="open-modal">
+            <div class="modal">
+                <h1>Olá, eu sou um modal!</h1>
+    
+                <p>Você pode me fechar clicando no botão abaixo</p>
+    
+                <button id="fechar" class="fechar-modal" onclick="FecharModal()">Fechar</button>
+        </div>
+    </div>
+
+
+    <script src="modal.js"></script>
+</body>
+</html>
